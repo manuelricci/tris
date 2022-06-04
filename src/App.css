@@ -1,0 +1,49 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.board {
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	display: grid;
+	grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.square {
+	background: #ef9a9a;
+	border: 1px solid black;
+	font-size: 40px;
+	font-weight: 200;
+	cursor: pointer;
+	outline: none
+}
+
+.info-panel {
+	width: 200px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.info-panel button{
+	background-color: #90caf9;
+	border-radius: 50px;
+	border: 0;
+	height: 36px;
+	min-width: 100px;
+	padding: 0 16px;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #1a1a1a;
+	}
+	.info-panel {
+		color: #fff;
+	}
+}
