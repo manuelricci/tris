@@ -1,9 +1,6 @@
 import './App.css';
+import Game from './components/Game';
 
-function App() {
-	return (
-		<div></div>
-	);
-}
+const App = () => <Game />
 
 export default App;
