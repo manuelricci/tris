@@ -22,3 +22,11 @@ body {
 	cursor: pointer;
 	outline: none;
 }
+
+.info-panel {
+	width: 200px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+
